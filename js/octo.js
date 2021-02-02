@@ -12,7 +12,7 @@ function getNav() {
     });
 }
 
-function addSidebarToggler() {
+/*function addSidebarToggler() {
     if(!$('body').hasClass('sidebar-footer')) {
         $('#content').append('<span class="toggle-sidebar"></span>');
         $('.toggle-sidebar').bind('click', function(e) {
@@ -35,7 +35,7 @@ function addSidebarToggler() {
         });
     }
     if (sections.length >= 3){ $('aside.sidebar').addClass('thirds'); }
-}
+}*/
 
 function testFeatures() {
     var features = ['maskImage'];
